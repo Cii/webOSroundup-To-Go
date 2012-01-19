@@ -1,0 +1,45 @@
+[
+    {
+        "source": "app/assistants/stage-assistant.js"
+    }, 
+    {
+        "source": "app/assistants/main-assistant.js", 
+        "scenes": "main"
+    }, 
+    {
+        "source": "app/assistants/firstUseDialog-assistant.js", 
+        "scenes": "main"
+    }, 
+    {
+        "source": "app/assistants/articles-assistant.js", 
+        "scenes": "articles"
+    }, 
+    {
+        "source": "app/assistants/articles-list-assistant.js", 
+        "scenes": "articles-list"
+    }, 
+    {
+        "source": "app/assistants/article-assistant.js", 
+        "scenes": "article"
+    }, 
+    {
+        "source": "app/models/prefs.js"
+    }, 
+    {
+        "source": "app/models/category.js"
+    }, 
+    {
+        "source": "app/models/metrix.js"
+    }, 
+    {
+        "source": "app/models/asyncWrappers.js"
+    }, 
+    {
+        "source": "app/assistants/preferences-assistant.js", 
+        "scenes": "preferences"
+    },
+    {
+        "source": "app/assistants/picture-viewer-assistant.js", 
+        "scenes": "picture-viewer"
+    }
+]

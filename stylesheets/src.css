@@ -1,0 +1,549 @@
+body.palm-default {
+    background: url('../images/BG.png') top left repeat;
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+body.largeFont {
+    font-size: 22px;
+}
+
+body.smallFont {
+    font-size: 16px;
+}
+
+.whiteBackground {
+}
+
+.homeLogo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttonField {
+}
+
+.feedIcon {
+    float:left;
+    padding: 20px;
+    width: 64px;
+    height: 101px;
+    position: relative;
+}
+
+#btnReviews {
+    background: url("../images/menuAppReviews.png") center center no-repeat;
+}
+
+#btnReviews.selected {
+    background: url("../images/menuAppReviewsOver.png") center center no-repeat;
+}
+
+#btnNews {
+    background: url("../images/menuNews.png") center center no-repeat;
+}
+
+#btnNews.selected {
+    background: url("../images/menuNewsOver.png") center center no-repeat;
+}
+
+#btnTips {
+    background: url("../images/menuTips.png") center center no-repeat;
+}
+
+#btnTips.selected {
+    background: url("../images/menuTipsOver.png") center center no-repeat;
+}
+
+#btnPodcasts {
+    background: url("../images/menuPodcasts.png") center center no-repeat;
+}
+
+#btnPodcasts.selected {
+    background: url("../images/menuPodcastsOver.png") center center no-repeat;
+}
+
+#btnAotD {
+    background: url("../images/menuAotD.png") center center no-repeat;
+}
+
+#btnAotD.selected {
+    background: url("../images/menuAotDOver.png") center center no-repeat;
+}
+
+#btnpreNotes {
+    background: url("../images/menupreNotes.png") center center no-repeat;
+}
+
+#btnpreNotes.selected {
+    background: url("../images/menupreNotesOver.png") center center no-repeat;
+}
+
+.feedSpinner {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 30;
+}
+
+.notifier {
+    position: absolute;
+    top: 7px;
+    right: 31px;
+}
+
+.notifierContainer {
+    position: relative;
+}
+
+.notifierIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.notifierText {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    z-index: 11;
+    font-size: .6em;
+    text-align: center;
+    width: 16px;
+}
+
+.verticalPage {
+    height: 480px;
+    min-height: 480px;
+}
+
+.mainScrollerContainer {
+    height: 480px;
+    width: 320px;
+}
+
+.mainFooterWrap {
+    height: 41px;
+}
+
+.mainFooter {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 41px;
+    background: url('../images/fullFooter.png') left top repeat-x;
+    padding: 0px 10px;
+}
+
+.mainFooterIconsLeft {
+    padding: 5px 8px;
+    float: left;
+}
+
+.mainFooterIconsRight {
+    padding: 5px 8px;
+    float: right;
+}
+
+#btnRefresh {
+    -webkit-transform: rotate(0deg);
+    -webkit-transition-property: -webkit-transform;
+}
+
+#btnRefresh.spin {
+    -webkit-transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+}
+
+.articleSummaryScrollerContainer {
+    width: 960px;
+    height: 385px;
+}
+
+.articleSummaryScrollerContainer img {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    margin: 5px;
+}
+
+.articleSummary {
+    float: left;
+    width: 274px;
+    min-width: 270px;
+    margin: 6px;
+    padding: 0px 3px;
+    height: 100%;
+    border: gray solid 2px;
+    -webkit-border-radius: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1em;
+}
+
+.articleSummaryTitle {
+    margin: 0px 15px !important;
+    color: #0080FF;
+}
+
+.articleSummary div,
+.articleSummary p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.whiteBackground .articleSummary {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+}
+
+.articleSummaryLogo img {
+    margin-left: 10px;
+    float: left;
+}
+
+.summaryCategoryTitle {
+    text-align: left;
+    font-size: 18px;
+    float: left;
+    margin-left: 15px;
+}
+
+.articlesListSummaryScroller {
+    clear: both;
+}
+
+.whiteBackground .articlesListSummaryScroller {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+}
+
+.articleListRow {
+    min-height: 56px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.whiteBackground .articleListRow {
+    color: black;
+}
+
+.articlesListSummaryScroller .palm-row-odd {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.whiteBackground .articlesListSummaryScroller .palm-row-odd {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.articleListImgWrap {
+    width: 72px;
+    height: 48px;
+    float: left;
+    padding: 2px 10px 2px 2px;
+    overflow: hidden;
+}
+
+.articleListImgWrap img {
+    max-width: 100%;
+}
+
+.articleSummaryFooter {
+    height: 41px;
+    left: 0px;
+    right: 0px;
+    background: url('../images/fullFooter.png') left top repeat-x;
+}
+
+.articleSummaryAd {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding-top: 1px;
+}
+
+.articleWrap {
+    min-height: 100%;
+    position: relative;
+}
+
+.articleLogo {
+    padding-left: 10px;
+    height: 26px;
+}
+
+.articleHeader {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: url('../images/fullHeader.png') left bottom repeat-x;
+}
+
+.articleHeaderWrap {
+}
+
+.articleHeaderIcon {
+    position: relative;
+    top: 11px;
+    width: 31px;
+    height: 31px;
+    float: right;
+    padding-right: 10px;
+}
+
+.articleHeaderText {
+    min-height: 53px;
+    height: auto;
+    padding-left: 10px;
+    font-size: 19px;   /* TODO: Revisit to see if we want relative font size */
+}
+
+.articleHeaderText.clipped {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 53px !important;
+}
+
+#articleScrollerHolder {
+/*    position: relative;
+    top: 0px; */
+    height: 100%;
+    margin: 0 auto -51px;
+}
+
+#articleScroller {
+    height: 100%;
+    margin: 0 auto -51px;
+}
+
+.articleHolder {
+}
+
+.articleSpinner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.whiteBackground .articleSpinnerHolder {
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.articleText {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+}
+
+.whiteBackground .articleText {
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+}
+
+.articleText img {
+    max-width: 99%;
+    height: auto;
+    margin: 5px;
+}
+
+.articleText div,
+.articleText p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.commentsWrapper {
+    overflow: auto;
+    padding: 0 5px;
+    margin: 10px 10px;
+    background-color: #f5f5f5;
+    opacity: 0.7
+    border: 1px solid #e0e0e0;
+    -webkit-border-radius: 10px;
+    color: black;
+    font-size: 0.9em;
+}
+
+.commentHeader {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nested-comment {
+    margin-left: 10px;
+    padding-left: 5px;
+    border-left: 1px solid #888888;
+}
+
+.comment {
+    padding: 6px 0px;
+}
+
+.commentAuthorDate {
+    float: left;
+}
+
+.commentAuthor,
+.commentDate {
+    font-size: 0.8em;
+}
+
+.commentReplyImg {
+    float: right;
+}
+
+.commentAvatar {
+    float: left;
+    margin-left: 5px;
+}
+
+.comment-reply {
+    padding: 0 5px;
+    margin: 10px 10px;
+    background-color: #f5f5f5;
+    opacity: 0.7
+    border: 1px solid #e0e0e0;
+    -webkit-border-radius: 10px;
+    color: black;
+    font-size: 0.9em;
+    height: 240px;
+    max-height: 240px;
+}
+
+.comment-msg {
+    padding: 5px;
+    height: 160px;
+    max-height: 160px;
+    background-color: transparent;
+}
+
+.comment-msg .multiline-hint-text {
+    color: black;
+}
+
+.pref-text input:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.articleFooterWrap {
+    height: 41px;
+}
+
+.articleFooter {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 41px;
+    background: url('../images/fullFooter.png') left top repeat-x;
+}
+
+.articleAd {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-top: 1px;
+}
+/* Styling from site */
+
+.prosLeft {
+    clear: both;
+    background-color: #e7ffe8;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+}
+.prosLeft ul {	margin-top: 0px;	margin-bottom: 0px;}
+.prosLeft ul li {	margin-left: -15px;}
+
+.consLeft {
+    clear: both;
+    background-color: #ffe7e7;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    color: black;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+}
+.consLeft ul{	margin-top: 0px;	margin-bottom: 0px;}
+.consLeft ul li{	margin-left: -15px;}
+
+.bottomline{
+    background-color: #f5f5f5;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    clear: both;
+    width: 90%;
+    color: black;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+ul { line-height: 22px; list-style-image: url('../images/bullet.gif'); }
+ul li {
+  padding-bottom: 5px;
+}
+
+img { border: none; }
+
+.articleText blockquote {
+    overflow: auto;
+    padding: 0 5px;
+    margin: 10px 10px;
+    background-color: #f5f5f5;
+    opacity: 0.7
+    border: 1px solid #e0e0e0;
+    color: black;
+}
+
+.articleSummary blockquote {
+    overflow: auto;
+    padding: 0 5px;
+    margin: 10px 10px;
+    background-color: #f5f5f5;
+    opacity: 0.7
+    border: 1px solid #e0e0e0;
+    color: black;
+}
+
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; color: black }
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left }
+
+.username-popup, .username-popup .palm-group-title,
+.username-popup .hint-text, .username-popup .pref-text,
+.username-popup .pref-text input {
+    color: black;
+}
+
+.username-popup .pref-text input:focus {
+    background-color: transparent;
+    color: black;
+    border: 0px;
+}
